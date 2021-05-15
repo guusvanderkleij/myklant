@@ -4,3 +4,9 @@ GET http://localhost:8080/greeting
 
 
 ###
+GET http://localhost:8080//actuator/health/liveness
+
+###
+GET http://localhost:8080//actuator/health/readiness
+
+###
